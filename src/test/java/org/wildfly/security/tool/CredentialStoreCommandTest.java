@@ -275,8 +275,6 @@ public class CredentialStoreCommandTest extends AbstractCommandTest {
     }
 
     @Test
-    @Ignore("https://issues.jboss.org/browse/ELY-1037"
-    + "https://issues.jboss.org/browse/ELY-890")
     public void testLocationFromUri() {
         String clearTextPassword = "secret_password";
         String aliasName = "aliasName";
